@@ -1,0 +1,113 @@
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+.top-head{
+    display: flex;
+    gap:200px;
+}
+.head-right{
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    display:flex;
+    align-items: center;
+}
+input{
+    width: 400px;
+    border-radius: 15px;
+    line-height: 20px;
+    border:none;
+    background-color: #78788029;
+    padding-left: 30px;
+}
+.search-input{
+    position: relative;
+}
+.iconleft{
+    position: absolute;
+    left:5px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.iconright{
+    position: absolute;
+    right:5px;
+    top:50%;
+    transform: translateY(-50%);
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+}
+.menu-top ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-top ul{
+    display: flex;
+    gap:30px
+}
+.menu-head ul li{
+    list-style-type: none;
+}
+.menu-head ul{
+    display: flex;
+    gap:50px;
+    padding-left: 0;
+}
+.content{
+    width: auto;
+}
+.product{
+    display: flex;
+    gap:50px;
+}
+.book{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.book img{
+    max-height: 500px;
+    display: block;
+}
+.footer{
+    display:flex;
+    gap:250px;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 22px;
+    color:black;
+}
+p{
+    font-size: 22px;
+}
+.dichvu{
+    display: flex;
+    flex-direction: column;
+}
+.hotro{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.sdt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
